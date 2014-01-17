@@ -38,6 +38,12 @@ gf
 gu
 " Go up to parent domain
 gU
+" Go to top of page
+gg
+" Go to bottom of page
+G
+" open contextual menu (right-click) on hints
+;c
 
 
 " custom :map ---------- [] [] [] 
