@@ -18,8 +18,10 @@ u
 r
 " force reload without cache
 R
-" open "Hints" (assigns numbers to links on a page)
+" open "Hints" (assigns numbers to links on a page) in the same buffer
 f
+" open "Hints" in a new buffer
+F
 " put curent URL in clipboard into open buffer
 p
 " put current URL in clipboard into new tab
