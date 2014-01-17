@@ -34,7 +34,7 @@ g0
 gi
 " Swtich between View Page Source / Page
 gf
-" Go to up 
+" Go up 
 gu
 " Go up to parent domain
 gU
