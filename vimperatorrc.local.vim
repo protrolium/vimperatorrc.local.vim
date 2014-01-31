@@ -99,6 +99,9 @@ silent qmark g http://github.com/protrolium
 " Press 'gor' to open Reddit
 silent qmark r http://reddit.com/
 
+" Press 'goR' to open Readability Reading List
+silent qmark R https://www.readability.com/reading-list
+
 " Press 'gom' to open Metafilter
 silent qmark m http://metafilter.com/
 
