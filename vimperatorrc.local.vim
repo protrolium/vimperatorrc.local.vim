@@ -111,6 +111,11 @@ silent qmark p https://pod.orkz.net/
 " Press 'gov' to open Vimeo
 silent qmark v http://vimeo.com/
 
+" custom :options ---------- [] [] [] 
+
+:set complete=slt
+:set titlestring=''
+
 
 / / / / / / 
 
