@@ -115,6 +115,7 @@ silent qmark v http://vimeo.com/
 
 :set complete=slt
 :set titlestring=''
+:set maxitems='14'
 
 
 / / / / / / 
