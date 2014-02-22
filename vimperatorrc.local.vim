@@ -63,10 +63,10 @@ noremap = :tabduplicate<CR>
 command agi tabopen http://www.google.com/advanced_image_search
 " Press ':read' to go to Readability in new tab
 command read tabopen http://readability.com/
-" Press ':rn' to open Readability Bookmarklet — READ NOW
-command rn open javascript:(%28function%28%29%7Bwindow.baseUrl%3D%27http%3A//www.readability.com%27%3Bwindow.readabilityToken%3D%27HUER5Lb6rAGHfPFU7uuZrMY5Z8cNSDesxAxzELFz%27%3Bvar%20s%3Ddocument.createElement%28%27script%27%29%3Bs.setAttribute%28%27type%27%2C%27text/javascript%27%29%3Bs.setAttribute%28%27charset%27%2C%27UTF-8%27%29%3Bs.setAttribute%28%27src%27%2CbaseUrl%2B%27/bookmarklet/read.js%27%29%3Bdocument.documentElement.appendChild%28s%29%3B%7D%29%28%29)
-" Press ':rl' to open Readability Bookmarklet — READ LATER
-command rl open javascript:(%28function%28%29%7Bwindow.baseUrl%3D%27http%3A//www.readability.com%27%3Bwindow.readabilityToken%3D%27HUER5Lb6rAGHfPFU7uuZrMY5Z8cNSDesxAxzELFz%27%3Bvar%20s%3Ddocument.createElement%28%27script%27%29%3Bs.setAttribute%28%27type%27%2C%27text/javascript%27%29%3Bs.setAttribute%28%27charset%27%2C%27UTF-8%27%29%3Bs.setAttribute%28%27src%27%2CbaseUrl%2B%27/bookmarklet/save.js%27%29%3Bdocument.documentElement.appendChild%28s%29%3B%7D%29%28%29)
+" Press ':rn' to open Instapaper Bookmarklet — READ NOW
+command rn open javascript:function%20iptxt(){var%20d=document;try{if(!d.body)throw(0);window.location='http://www.instapaper.com/text?u='+encodeURIComponent(d.location.href);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iptxt();void(0)
+" Press ':rl' to open Instapaper Bookmarklet — READ LATER
+command rl open javascript:function%20iprl5(){var%20d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...)%20'+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/k5jZsDLT0Aho?a=read-later&u='+encodeURIComponent(l.href)+'&t='+(new%20Date().getTime()));b.appendChild(z);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iprl5();void(0)
 " Press ':daysold' to go to WolframAlpha in new tab
 command daysold tabopen http://www.wolframalpha.com/input/?i=8/27/1984
 " Press ':tg' to go to Twitter in new tab
