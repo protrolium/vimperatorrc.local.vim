@@ -1,7 +1,11 @@
 " Default mappings I use often ---------- [] [] [] 
 
-" show list of tabs (buffers)
+" show interactive list of tabs (buffers)
 b
+" show static list of current tab-group's buffers
+B
+" specify a number and jump directly to that buffer
+[count] b
 " new tab prompt
 t
 " new :tabopen prompt with current URL 
@@ -119,6 +123,9 @@ silent qmark v http://vimeo.com/
 
 
 / / / / / / 
+
+" display complete list of abbreviations / commands
+:usage 
 
 :mkv[imperatorrc][!] [file]
         
