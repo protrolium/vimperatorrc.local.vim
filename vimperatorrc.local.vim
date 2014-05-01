@@ -50,7 +50,8 @@ gg
 G
 " open contextual menu (right-click) on hints
 ;c
-
+" yank link url in extended hint-mode
+;y
 
 " custom :map ---------- [] [] [] 
 
