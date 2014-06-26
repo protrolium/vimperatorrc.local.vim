@@ -104,6 +104,8 @@ silent qmark g http://github.com/protrolium
 " Press 'gor' to open Reddit
 silent qmark r http://reddit.com/
 
+" Press 'gob' to open Bandcamp
+silent qmark b http://gavingamboa.bandcamp.com/
 
 " Press 'gom' to open Metafilter
 silent qmark m http://metafilter.com/
