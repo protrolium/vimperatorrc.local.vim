@@ -116,6 +116,9 @@ silent qmark v http://vimeo.com/
 
 " custom :options ---------- [] [] [] 
 
+" Hide Toolbars + Firefox GUI
+:set gui=none
+
 :set complete=slt
 :set titlestring=''
 :set maxitems='14'
