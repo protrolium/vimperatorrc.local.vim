@@ -66,8 +66,8 @@ noremap = :tabduplicate<CR>
 
 " Press ':agi' to go to advanced Google Image Search tab
 command agi tabopen http://www.google.com/advanced_image_search
-" Press ':read' to go to Readability in new tab
-command read tabopen http://readability.com/
+" Press ':read' to go to Instapaper in new tab
+command read tabopen http://instapaper.com/
 " Press ':rn' to open Instapaper Bookmarklet — READ NOW
 command rn open javascript:function%20iptxt(){var%20d=document;try{if(!d.body)throw(0);window.location='http://www.instapaper.com/text?u='+encodeURIComponent(d.location.href);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iptxt();void(0)
 " Press ':rl' to open Instapaper Bookmarklet — READ LATER
@@ -104,8 +104,6 @@ silent qmark g http://github.com/protrolium
 " Press 'gor' to open Reddit
 silent qmark r http://reddit.com/
 
-" Press 'goR' to open Readability Reading List
-silent qmark R https://www.readability.com/reading-list
 
 " Press 'gom' to open Metafilter
 silent qmark m http://metafilter.com/
