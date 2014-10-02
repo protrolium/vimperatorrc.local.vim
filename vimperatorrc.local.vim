@@ -52,6 +52,8 @@ G
 ;c
 " yank link url in extended hint-mode
 ;y
+" save a media object
+;S
 
 " custom :map ---------- [] [] [] 
 
@@ -137,4 +139,19 @@ silent qmark v http://vimeo.com/
             [file] is specified then ~/.vimperatorrc is written unless this file
             already exists. The special version :mkvimperatorrc! will overwrite
             [file] if it exists.
+            
+            
+/ / / / / /
+
+" manual settings in .vimperatorrc
+
+set complete=slt
+set maxitems=14
+set noscrollbars
+set titlestring=
+set gui=none
+set defsearch=google
+hi CmdLine -append font-size:12px
+hi CompDesc -append font-size:12px
+hi CompResult -append font-size:12px
         
