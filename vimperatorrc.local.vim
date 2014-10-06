@@ -4,7 +4,7 @@
 b
 " show static list of current tab-group's buffers
 B
-" specify a number and jump directly to that buffer
+" specify a number (nth buffer not buffer ID) and jump directly to that buffer
 [count] b
 " new tab prompt
 t
