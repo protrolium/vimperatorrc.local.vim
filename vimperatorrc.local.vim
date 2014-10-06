@@ -67,6 +67,10 @@ noremap m :tabprevious<CR>
 noremap , :tabnext<CR>
 " Press '=' to duplicate tab
 noremap = :tabduplicate<CR>
+" Press '\' to step backward in history
+noremap \\ :back<CR>
+" Press '|' to step forward in history
+noremap | :forward<CR>
 
 " custom :command ---------- [] [] [] 
 
