@@ -30,6 +30,10 @@ F
 p
 " put current URL in clipboard into new tab
 P
+" Go to next tab 
+gt
+" Go to previous tab 
+gT 
 " Go to last tab 
 g$ 
 " Go to first tab
