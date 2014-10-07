@@ -26,6 +26,6 @@ set defsearch=google
 hi CmdLine -append font-size:12px
 hi CompDesc -append font-size:12px
 hi CompResult -append font-size:12px
-source! /Users/Samizdat/.vimperatorrc.local
+source! /Users/S******/.vimperatorrc.local
 
 " vim: set ft=vimperator:
