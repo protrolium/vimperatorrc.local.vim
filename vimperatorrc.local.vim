@@ -38,6 +38,10 @@ gT
 g$ 
 " Go to first tab
 g0
+" Follow the link labeled next or > if it exists.
+]]
+" Follow the link labeled prev or < if it exists.
+[[
 " Find in page
 /
 " Go to first input field quickly
