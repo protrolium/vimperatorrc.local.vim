@@ -1,5 +1,7 @@
 " Default mappings I use often ---------- [] [] [] 
 
+" disable vimperator keybindings (useful for google apps)
+shift + esc
 " show interactive list of tabs (buffers)
 b
 " show static list of current tab-group's buffers
