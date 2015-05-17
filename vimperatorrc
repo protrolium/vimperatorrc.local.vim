@@ -30,7 +30,7 @@ hi Normal               color: #afafaf; background: #222222;
 hi CmdLine              background: #222222; color: #ffffff; font-size: 12pt;
 hi CompDesc             color: #c6c6c6; width: 50%; font-size: 12pt;
 hi CompIcon             width: 16px; min-width: 16px; display: inline-block; margin-right: .5ex;
-hi CompItem[selected]   background: #666666; color: #afafaf; 
+hi CompItem[selected]   background: #666666; color: #afafaf;
 " hi CompLess             text-align: center; height: 0; line-height: .5ex; padding-top: 1ex;
 " hi CompMore             text-align: center; height: .5ex; line-height: .5ex; margin-bottom: -.5ex;
 hi CompMsg              font-style: italic; margin-left: 16px;
@@ -65,7 +65,7 @@ hi Indicator 			color: white;
 hi InfoMsg              color: #afafaf; background: #222222;
 hi Message              white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block;
 hi WarningMsg           color: red; background: #222222;
-hi ModeMsg              color: #afafaf; background: #222222; "CmdLine when Not in Use
+hi ModeMsg              color: white; background: red; font-size: 12pt; "CmdLine when Not in Use
 hi MoreMsg              color: #afafaf; background: #222222;
 hi NonText              color: lightblue; min-height: 16px; padding-left: 2px;
 hi Question             color: #ffffff; background: #222222; font-weight: bold;
