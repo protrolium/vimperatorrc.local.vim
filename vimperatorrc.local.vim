@@ -132,6 +132,16 @@ silent qmark p https://pod.orkz.net/
 " Press 'gov' to open Vimeo
 silent qmark v http://vimeo.com/
 
+" Selecting Text
+See a block of text blah ... lalala that I want to copy.
+/blah<Return> to get the cursor onto blah.
+c to enter caret mode.
+b to move back to the beginning of blah.
+v to enter visual mode.
+jj$ or whatever to select a block of text.
+(optional) y to yank to clipboard.
+<Esc><Esc> to exit visual and caret modes.
+
 " custom :options ---------- [] [] [] 
 
 " Hide Toolbars + Firefox GUI
