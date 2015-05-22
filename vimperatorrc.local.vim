@@ -64,6 +64,8 @@ G
 ;y
 " save a media object
 ;S
+" open help for any command
+:h 
 
 " custom :map ---------- [] [] [] 
 
