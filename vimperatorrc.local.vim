@@ -104,6 +104,9 @@ command ghost open javascript:(function(){document.body.innerHTML+="<style>*{bac
 " go<letter>
 " gn<letter> - in new tab
 
+" Press 'goe' to open Evernote
+silent qmark e http://evernote.com/
+
 " Press 'got' or 'gnt' to open Google Translate
 silent qmark t http://translate.google.com/
 
