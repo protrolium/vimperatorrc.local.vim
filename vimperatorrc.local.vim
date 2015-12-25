@@ -40,6 +40,8 @@ gT
 g$ 
 " Go to first tab
 g0
+" Go to last-active tab 
+g# 
 " Follow the link labeled next or > if it exists.
 ]]
 " Follow the link labeled prev or < if it exists.
