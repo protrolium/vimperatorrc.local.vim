@@ -1,4 +1,4 @@
-"3.8.2 (created: 2014/02/13 23:52:43)
+"3.13.1 (created: 2016/05/04 01:34:00)
 command! agi tabopen http://www.google.com/advanced_image_search
 command! daysold tabopen http://www.wolframalpha.com/input/?i=8/27/1984
 command! ghost open javascript:(function(){document.body.innerHTML+="<style>*{background:%20#000%20!important;color:%20#0f0%20!important;outline:%20solid%20#f00%201px%20!important;}</style>";})();
@@ -7,18 +7,20 @@ command! rl open javascript:function%20iprl5(){var%20d=document,z=d.createElemen
 command! rn open javascript:function%20iprl5(){var%20d=document,z=d.createElement('scr'+'ipt'),b=d.body,l=d.location;try{if(!b)throw(0);d.title='(Saving...)%20'+d.title;z.setAttribute('src',l.protocol+'//www.instapaper.com/j/k5jZsDLT0Aho?a=read-later&u='+encodeURIComponent(l.href)+'&t='+(new%20Date().getTime()));b.appendChild(z);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iprl5();void(0)
 command! tg tabopen https://twitter.com/gavartgamhag
 command! tl tabopen https://twitter.com/
-command! tt tabopen https://twitter.com/
+command! tt tabopen https://twitter.com/tmachinetv
+command! tog tabopen https://www.toggl.com/app/timer
+command! depth tabopen https://www.reddit.com/r/DepthHub/
 noremap m :tabprevious<Return>
 noremap , :tabnext<Return>
 noremap = :tabduplicate<Return>
 noremap "\\" :back<Return>
 noremap | :forward<Return>
 set complete=slt
-set maxitems=14
+set maxitems=25
 set noscrollbars
 set titlestring=
 set gui=none
-set defsearch=google
+set defsearch=duckduckgo
 
 "StatusLine settings
 hi StatusLine           color: #ffffff; background: #000000; font-size: 12pt;
