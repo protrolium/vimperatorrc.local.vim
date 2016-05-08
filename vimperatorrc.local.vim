@@ -2,70 +2,103 @@
 
 " disable vimperator keybindings (useful for google apps)
 shift + esc
+
 " show interactive list of tabs (buffers)
 b
+
 " show static list of current tab-group's buffers
 B
+
 " specify a number (nth buffer not buffer ID) and jump directly to that buffer
 [count] b
+
 " new tab prompt
 t
+
 " new :tabopen prompt with current URL 
 T
+
 " yank (copy) current page URL
 y
+
 " open in current tab 
 o
+
 " close (delete) current buffer
 d
+
 " undo last closed buffer
 u
+
 " reload the page
 r
+
 " force reload without cache
 R
+
 " open "Hints" (assigns numbers to links on a page) in the same buffer
 f
+
 " open "Hints" in a new buffer
 F
+
 " put curent URL in clipboard into open buffer
 p
+
 " put current URL in clipboard into new tab
 P
+
 " Go to next tab 
 gt
+
 " Go to previous tab 
 gT 
+
 " Go to last tab 
 g$ 
+
 " Go to first tab
 g0
+
 " Go to last-active tab 
 g# 
+
 " Follow the link labeled next or > if it exists.
 ]]
+
 " Follow the link labeled prev or < if it exists.
 [[
+
 " Find in page
 /
+
 " Go to first input field quickly
 gi
+
 " Swtich between View Page Source / Page
 gf
+
 " Go up 
 gu
+
 " Go up to parent domain
 gU
+
 " Go to top of page
 gg
+
 " Go to bottom of page
 G
+
 " open contextual menu (right-click) on hints
 ;c
+
 " yank link url in extended hint-mode
 ;y
+
 " save a media object
 ;S
+
 " open help for any command
 :h 
 
@@ -171,18 +204,5 @@ jj$ or whatever to select a block of text.
             already exists. The special version :mkvimperatorrc! will overwrite
             [file] if it exists.
             
-            
-/ / / / / /
-
-" manual settings in .vimperatorrc
-
-set complete=slt
-set maxitems=14
-set noscrollbars
-set titlestring=
-set gui=none
-set defsearch=google
-hi CmdLine -append font-size:12px
-hi CompDesc -append font-size:12px
-hi CompResult -append font-size:12px
+           
         
