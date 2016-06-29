@@ -172,6 +172,9 @@ silent qmark p https://pod.orkz.net/
 " Press 'gov' to open Vimeo
 silent qmark v http://vimeo.com/
 
+" Press 'gok' to open Kadenze
+silent qmark k https://www.kadenze.com/
+
 " Selecting Text
 See a block of text blah ... lalala that I want to copy.
 /blah<Return> to get the cursor onto blah.
