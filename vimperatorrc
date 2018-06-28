@@ -22,6 +22,19 @@ set titlestring=
 set gui=none
 set defsearch=duckduckgo
 
+silent qmark e https://www.evernote.com/Home.action
+silent qmark t http://translate.google.com/
+silent qmark T http://tumblr.com/
+silent qmark f http://facebook.com/
+silent qmark d http://diasp.org/aspects
+silent qmark g http://github.com/protrolium
+silent qmark r http://reddit.com/
+silent qmark b http://gavingamboa.bandcamp.com/
+silent qmark m http://metafilter.com/
+silent qmark p https://pod.orkz.net/
+silent qmark v http://vimeo.com/
+silent qmark k https://www.kadenze.com/
+
 "StatusLine settings
 hi StatusLine           color: #ffffff; background: #000000; font-size: 12pt;
 " hi StatusLineBroken     color: #000000; background: #afafff; "font-size: 8pt;
